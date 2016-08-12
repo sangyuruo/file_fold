@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/navicloud_and_749a">
+    
+<LinearLayout
+    android:id="@+id/detail_info_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="133dip" android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/navicloud_and_591a"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+             android:layout_marginTop="13dp"
+            android:orientation="vertical" android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/distance_text"
+                style="@style/Style.Text.Text.ListItemSubText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dip"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/STR_MM_02_02_04_10" style="@style/Style.Text.Text.ListItemSubText" android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/open_time_text"
+                style="@style/Style.Text.Text.ListItemSubText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <com.billionav.navi.component.basiccomponent.CheckBoxCollect
+            android:id="@+id/check_box_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/detail_info_2_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/navicloud_and_652a"
+		android:gravity="center_vertical"
+		android:paddingLeft="10dp"
+	>
+		<TextView
+        android:text="@string/STR_MM_02_02_04_19"
+        android:id="@+id/name_title"
+        android:layout_alignTop="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textSize="15dip" android:textColor="#000"/>
+		<TextView
+        android:id="@+id/name_text"
+        android:layout_toRightOf="@+id/name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textSize="15dip" android:textColor="#000" />
+	</RelativeLayout>
+ 
+ 	<RelativeLayout
+ 		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" 
+        android:background="@drawable/navicloud_and_652a" 
+        android:paddingLeft="10dp"
+ 	>
+ 		<TextView
+ 		android:id="@+id/address_title"
+        android:text="@string/STR_MM_02_02_04_20"
+       android:textSize="15dip" android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/address_text"
+        />
+ 		<TextView
+        android:id="@+id/address_text"
+        android:layout_toRightOf="@+id/address_title"
+       android:textSize="15dip" android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+ 	</RelativeLayout>
+	<RelativeLayout
+	 android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+	 android:background="@drawable/navicloud_and_652a" 
+	 android:paddingLeft="10dp"
+	 android:gravity="center_vertical"
+	>
+    <TextView
+    	android:text="@string/STR_MM_02_02_04_21"
+        android:textSize="15dip" android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tel_title"
+        android:layout_alignTop="@+id/tel_no_text"
+     />
+    <TextView
+        android:id="@+id/tel_no_text"
+       android:textSize="15dip" android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tel_title"
+        android:autoLink="phone"
+        android:ellipsize="end"
+        android:singleLine="true" />
+    </RelativeLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/operate_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginBottom="26dip">
+     <GridView
+	android:id = "@+id/src_srch_info_grid"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:numColumns="4"
+	android:gravity="center"
+>
+</GridView>
+</LinearLayout>
+
+</LinearLayout>

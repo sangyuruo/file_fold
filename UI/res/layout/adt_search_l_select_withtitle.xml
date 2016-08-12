@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TextView 
+  	android:id="@+id/search_l_select_textview"
+    android:layout_width="match_parent"
+  	android:layout_height="30dip"
+  	android:textSize="16dip"
+  	android:text="text"
+  	android:gravity="center"/>
+    <com.billionav.navi.component.listcomponent.ListViewNavi
+    	android:layout_below="@id/search_l_select_textview"
+    	android:layout_width="match_parent" 
+    	android:layout_height="match_parent" 
+    	android:id="@+id/listCustomView1" 
+    	android:layout_alignParentLeft="true" 
+    	android:layout_alignParentBottom="true">
+    </com.billionav.navi.component.listcomponent.ListViewNavi>
+    
+</RelativeLayout>

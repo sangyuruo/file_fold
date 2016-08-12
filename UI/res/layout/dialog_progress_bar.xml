@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:orientation="vertical"
+            android:layout_margin="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/progress_dialog_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5dip"
+                android:text="TextView"
+                android:textColor="@color/navicloud_text_001"
+                android:textSize="14dp" />
+            <ProgressBar
+            	style="?android:attr/progressBarStyleHorizontal"
+            	android:progressDrawable="@xml/list_item_probar_style"
+                android:id="@+id/progress_dialog_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dip"
+                android:minWidth="200dip"
+                android:maxHeight="20dip"
+                android:minHeight="20dip"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dip"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

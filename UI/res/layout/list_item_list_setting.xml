@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip" >
+
+    <ImageView
+        android:id="@+id/ListItemListSetting_iconimg"
+        android:layout_width="28dip"
+        android:layout_height="28dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:visibility="gone" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ListItemListSetting_settingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/ListItemListSetting_iconimg"
+        android:text="TextView" style="@style/Style.Text.Text.ListItemText">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ListItemListSetting_bewritetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip" style="@style/Style.Text.Text.ListItemSubText">
+    </TextView>
+
+</RelativeLayout>

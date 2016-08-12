@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--  
+    <CheckBoxPreference android:key="sensorGyro" android:title="sensor gyro"/>
+-->
+    <CheckBoxPreference android:key="sensorRawDataSave" android:title="sensor raw data save"/>
+    <CheckBoxPreference android:key="sensorCardDataSave" android:title="sensor card data save"/>
+    <CheckBoxPreference android:key="sensorLogPlay" android:title="sensor log play"/>
+    <!--
+    <CheckBoxPreference android:key="sensorSnsFunction" android:title="Sns Function"/>
+    -->
+    <CheckBoxPreference android:title="sensor stop state watch" android:key="sensorStopStateWatch"/>   
+
+</PreferenceScreen>

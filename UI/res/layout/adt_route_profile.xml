@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <com.billionav.navi.component.mapcomponent.PopupWayPoint
+        android:id="@+id/rp_waypointpopup"
+        android:layout_width="156dip"
+        android:layout_height="46dip"
+        android:layout_marginTop="39dp" >
+    </com.billionav.navi.component.mapcomponent.PopupWayPoint>
+    
+    
+    <com.billionav.navi.component.tab.RouteConditionTab
+        android:id="@+id/rp_route_condition_tab"
+        android:layout_width="match_parent"
+        android:layout_height="44dip" >
+    </com.billionav.navi.component.tab.RouteConditionTab>
+
+    <com.billionav.navi.component.bottombar.BottomBarRoutePreview
+        android:id="@+id/rp_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    </com.billionav.navi.component.bottombar.BottomBarRoutePreview>
+    <com.billionav.navi.component.mapcomponent.ButtonMapZoom
+    	android:id="@+id/map_zoom_button"
+    	android:layout_alignParentRight="true"
+    	android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    >
+    </com.billionav.navi.component.mapcomponent.ButtonMapZoom>
+    
+
+</RelativeLayout>

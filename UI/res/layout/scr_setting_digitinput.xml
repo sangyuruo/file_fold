@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:stretchColumns="1">
+
+	<View android:layout_height="36dip"/>
+
+	<TableRow>
+		<TextView android:layout_column="1" android:text="Unit: cm"
+			android:id="@+id/unit_textview" android:padding="3dip" />
+	</TableRow>
+
+	<TableRow>
+		<EditText android:layout_column="1" android:text=""
+			android:id="@+id/datainput_edittext" android:padding="3dip"
+			android:singleLine="true" android:inputType="phone" android:numeric="integer"/>
+		<Button android:text="Done" android:id="@+id/done_button"
+			android:padding="3dip" android:width="60dip"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:gravity="center_vertical|center_horizontal" />
+	</TableRow>
+</TableLayout>

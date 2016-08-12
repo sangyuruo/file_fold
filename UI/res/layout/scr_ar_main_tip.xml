@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:background="@drawable/navicloud_and_517b"
+    android:orientation="vertical" >
+    <ViewFlipper
+        android:id="@+id/ViewFlipper01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:id="@+id/layout_tip01"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="37" android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:layout_weight="390">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/navicloud_and_h_01_03" android:layout_weight="1" android:layout_marginBottom="6dp" android:layout_marginTop="6dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/navicloud_and_h_01_06" android:layout_weight="1" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:scaleType="fitXY"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:layout_weight="570">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/navicloud_and_h_06" android:layout_marginTop="35dp"/>
+
+                </LinearLayout>
+         
+            </LinearLayout>
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="25dip"
+                android:layout_gravity="center_horizontal" android:src="@drawable/navicloud_and_017a_01" android:scaleType="center"/>
+            </LinearLayout>
+           
+        
+        
+       <LinearLayout 
+            android:layout_width="match_parent"
+            android:id="@+id/layout_tip02"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+           
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:layout_weight="390">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/navicloud_and_h_02_c" android:layout_marginTop="14dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:scaleType="fitStart"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:layout_weight="570">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/navicloud_and_h_05" android:layout_marginTop="35dp"/>
+
+                </LinearLayout>
+         
+            </LinearLayout>
+            
+                <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:scaleType="center" android:layout_gravity="center_horizontal" android:src="@drawable/navicloud_and_017a_02"/>
+       </LinearLayout>
+        
+            
+       <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_tip"
+            >
+             <RelativeLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <RelativeLayout 
+          android:layout_width="282dip"
+          android:layout_height="wrap_content" 
+           android:layout_centerInParent="true">
+          <Button 
+              android:id="@+id/button01"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/STR_MM_04_00_01_03"/>
+           <Button 
+               android:id="@+id/button02"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/button01"
+              android:text="@string/STR_COM_010" 
+              android:layout_marginTop="23.3dip"/>
+           <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/button02" android:layout_marginTop="13.3dip">
+               <CheckBox
+               android:id="@+id/checkBox1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/white"
+               android:text="@string/STR_MM_04_00_01_01" android:layout_alignParentRight="true"/>
+              
+           </RelativeLayout>
+
+           
+
+      </RelativeLayout>
+      <RelativeLayout 
+          android:layout_width="match_parent"
+          android:layout_height="25dp" 
+          android:layout_alignParentBottom="true">
+          <ImageView 
+              
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/navicloud_and_017a_03" 
+              android:layout_centerInParent="true"/>
+      </RelativeLayout>
+  </RelativeLayout>
+            
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>

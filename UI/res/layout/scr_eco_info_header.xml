@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:id="@+id/rl" android:layout_height="250dip
+  ">
+  <RelativeLayout 
+      android:id="@+id/current_timelayout"
+      android:layout_height="wrap_content"
+      android:background="@drawable/navicloud_and_661a"
+    	android:layout_width="wrap_content">
+    <TextView android:id="@+id/current_time"
+     	android:layout_height="41.3dip"
+       	android:paddingLeft="12dip"
+    	android:gravity="left|center_vertical" 
+    	
+    	android:layout_width="match_parent" style="@style/Style.Text.Text.ListItemSubText"/>
+ </RelativeLayout>
+   <RelativeLayout    		 
+   		android:layout_height="match_parent"
+    	android:layout_width="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_below="@id/current_timelayout"
+   		android:gravity="center_vertical"
+    	android:id="@+id/ratingBar" android:layout_centerInParent="true">
+    	<LinearLayout android:layout_height="wrap_content"
+    	 android:id="@+id/scr_header_linear"
+    	 android:layout_width="wrap_content" android:gravity="center_vertical|fill_horizontal" android:orientation="horizontal" android:layout_centerInParent="true">
+    	 <RelativeLayout 
+    	    	android:layout_height="wrap_content"
+    			android:layout_width="wrap_content"
+    			android:layout_gravity="center_vertical"
+    			android:layout_weight="2">
+    			  <RatingBar 
+          android:id="@+id/eco_bar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/levelBigRatingBar"
+          android:clickable="false"
+          android:numStars="5" android:rating="3"/>
+  <!--    		<ImageView android:id="@+id/rb_img1"      
+    			android:layout_width="44dip"      	
+    			android:layout_height="44dip" 
+    			android:layout_alignParentLeft="true"
+    			android:layout_marginLeft="2dip"
+    			android:src="@drawable/navicloud_and_564a"/>
+    		<ImageView android:id="@+id/rb_img2"      
+    			android:layout_width="44dip"      	
+    			android:layout_height="44dip" 
+    			  android:layout_marginLeft="7dip"
+    			  android:layout_toRightOf="@id/rb_img1"
+    			android:src="@drawable/navicloud_and_564a"/>
+    		<ImageView android:id="@+id/rb_img3"      
+    			android:layout_width="44dip"      	
+    			android:layout_height="44dip" 
+    			android:layout_marginLeft="7dip"
+    			 android:layout_toRightOf="@id/rb_img2"
+    			android:src="@drawable/navicloud_and_564a"/>
+    		<ImageView android:id="@+id/rb_img4"      
+    			android:layout_width="44dip"      	
+    			android:layout_height="44dip" 
+    			android:layout_marginLeft="7dp"
+    			 android:layout_toRightOf="@id/rb_img3"
+    			android:src="@drawable/navicloud_and_564a"/>
+    		<ImageView android:id="@+id/rb_img5"      
+    			android:layout_width="44dip"      	
+    			android:layout_height="44dip" 
+    		    android:layout_toRightOf="@id/rb_img4"
+    		    android:layout_marginLeft="7dp"
+    			android:src="@drawable/navicloud_and_564a"/>
+    			-->
+    	</RelativeLayout>
+    	 <RelativeLayout android:layout_height="50dip" android:id="@+id/relativeLayout1" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_weight="5" android:layout_marginLeft="5dip">
+    	     <TextView android:textColor="@color/score_text" android:gravity="center_vertical" android:layout_width="wrap_content" android:textSize="20dip" android:layout_height="wrap_content" android:id="@+id/sore_txt" android:layout_centerInParent="true"></TextView>
+    	 </RelativeLayout>
+   		</LinearLayout>
+    </RelativeLayout>
+    	
+<!--    <RelativeLayout    android:layout_height="41.3dp"
+        android:layout_below="@id/ratingBar" 
+    	android:layout_width="wrap_content" >	
+    	
+     <TextView android:id="@+id/list_title"
+   	  android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:textColor="@color/mid_black"
+    	android:text="@string/STR_MM_10_02_01_04"
+       	android:layout_alignParentLeft="true"
+       	android:layout_centerVertical="true"
+       	android:layout_marginLeft="12dp"
+    	android:textSize="14.6dip"
+    	/>
+    </RelativeLayout>
+ -->   
+    	
+</RelativeLayout>

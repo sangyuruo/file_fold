@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tabhostitem_control_layout" android:layout_width="wrap_content"
+	android:layout_height="41dip">
+	<TextView android:id="@+id/routeeditbroaditem_explain_icon"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="start place" android:layout_marginLeft="10dip"
+		android:layout_marginTop="14dip" android:textSize="14dip"
+		android:textColor="@color/black" />
+	<TextView android:id="@+id/routeeditbroaditem_location_icon"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:singleLine="true" android:text="text" android:textSize="14dip"
+		android:textColor="@color/grey" android:layout_marginLeft="10dip" android:layout_marginTop="16dip" android:layout_toRightOf="@+id/routeeditbroaditem_explain_icon">
+	</TextView>
+	<ImageView android:id="@+id/routeeditbroaditem_delete_icon"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/tabhostitem_popupbtn"
+		android:layout_marginTop="15dip" />
+	<ImageView android:id="@+id/routeeditbroaditem_popupbtn"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true" />
+	<ImageView android:id="@+id/routeeditbroaditem_background"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		
+		android:layout_alignParentBottom="true" />
+</RelativeLayout>
+

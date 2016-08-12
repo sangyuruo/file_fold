@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+        <com.billionav.navi.component.mapcomponent.ButtonMapZoom
+            android:id="@+id/map_button_zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true">
+        </com.billionav.navi.component.mapcomponent.ButtonMapZoom>
+
+<!--          <com.billionav.navi.component.mapcomponent.Cursor
+            android:id="@+id/map_cursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+ -->       
+	    <RelativeLayout
+	        android:id="@+id/map_overwite_layer_left"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	       	android:layout_centerVertical="true">
+	
+	        <ImageView
+	            android:id="@+id/map_overwite_my_loction"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_map_my_location"/>
+	
+	        <ImageView
+	            android:id="@+id/map_overwite_calc_route"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/btn_map_calc_route" android:layout_below="@id/map_overwite_my_loction" android:layout_marginTop="3dip"/>
+	
+	    </RelativeLayout>
+	      <RelativeLayout
+	        android:id="@+id/map_overwite_layer_cradle_info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone"
+	        android:layout_marginRight="50dip"
+	        android:layout_alignParentRight="true"
+	       	android:layout_centerVertical="true">
+	
+	        <TextView
+	            android:id="@+id/map_overwite_Crdl"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	
+	        <TextView
+	            android:id="@+id/map_overwite_GPS"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:layout_below="@id/map_overwite_Crdl" 
+	            android:layout_marginTop="3dip"/>
+	           <TextView
+	            android:id="@+id/map_overwite_OD"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:layout_below="@id/map_overwite_GPS" 
+	            android:layout_marginTop="3dip"/>
+	           <TextView
+	            android:id="@+id/map_overwite_GY"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:layout_below="@id/map_overwite_OD" 
+	            android:layout_marginTop="3dip"/>
+	           <TextView
+	            android:id="@+id/map_overwite_GS"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:layout_below="@id/map_overwite_GY" 
+	            android:layout_marginTop="3dip"/>
+	           
+	           <TextView
+	            android:id="@+id/map_overwite_SND"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:layout_below="@id/map_overwite_GS" 
+	            android:layout_marginTop="3dip"/>
+	           
+	           <TextView
+	            android:id="@+id/map_overwite_Prs"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:layout_below="@id/map_overwite_SND" 
+	            android:layout_marginTop="3dip"/>
+	
+	    </RelativeLayout>
+        
+</RelativeLayout>

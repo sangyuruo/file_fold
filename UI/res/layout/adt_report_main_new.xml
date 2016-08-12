@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/translucent">
+
+      	<RelativeLayout
+  	    android:layout_height="match_parent"
+  	    android:layout_width="match_parent"
+  	    android:visibility="gone"
+  	    android:id="@+id/report_layout">
+  	    <ImageButton
+  	        android:layout_width="66.7dip"
+  	        android:layout_height="44dip"
+  	        android:id="@+id/delete_image"
+  	        android:layout_alignParentRight="true"
+  	        android:layout_marginTop="11.5dip"
+  	        android:layout_marginRight="14dip"
+  	        android:background="@xml/button_common_selected_05"
+  	        android:src="@drawable/navicloud_and_455a"/>
+  	</RelativeLayout>
+    	<RelativeLayout 
+  	    android:id="@+id/report_new_01"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent" android:visibility="gone">
+  	    <GridView 
+       android:id="@+id/gridView01"
+       android:layout_width="341dip"
+       android:layout_height="wrap_content"
+       android:numColumns="4"
+       android:background="@drawable/navicloud_and_739a"
+       android:horizontalSpacing="0dip"
+       android:verticalSpacing="0dip"
+       android:layout_centerInParent="true"></GridView>
+
+   <RelativeLayout
+       android:layout_width="355dip"
+       android:layout_height="48dip"
+       android:layout_alignParentBottom="true"
+       android:background="@drawable/navicloud_and_710a" 
+       android:layout_centerHorizontal="true">
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/STR_MM_08_01_01_13"
+           android:textColor="@color/white" android:layout_centerInParent="true" android:textSize="21dip"/>
+       
+   </RelativeLayout>
+  	</RelativeLayout>
+  	<RelativeLayout 
+  	    android:id="@+id/report_new_02"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent">
+  	     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+         android:id="@+id/title_layout"
+        android:background="@drawable/navicloud_and_518a" android:layout_marginRight="4dip" android:layout_marginLeft="4dip">
+        <ImageView 
+            android:id="@+id/report_main_image_icon"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            
+            android:layout_marginLeft="11dip" android:layout_gravity="center_vertical"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:background="@drawable/navicloud_and_516a"
+            android:orientation="horizontal"
+           
+            android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginRight="10dip" android:layout_gravity="center_vertical" android:layout_marginLeft="12dip">
+         <EditText 
+            android:id="@+id/report_main_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:paddingLeft="5dip"
+            android:background="@color/white"
+            android:layout_gravity="center_vertical" android:layout_weight="1" android:layout_marginRight="10dip" android:layout_marginLeft="5dip"/>
+         <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/report_main_voice"
+             android:background="@drawable/btn_report_voice_selector" android:layout_gravity="center_vertical" android:layout_marginRight="16.7dip"/>
+       </LinearLayout>
+       <ImageButton
+            android:id="@+id/report_main_takePic"
+            android:layout_width="58dip"
+            android:layout_height="36dip"
+            android:background="@xml/button_common_takepic" android:src="@drawable/navicloud_and_589a" android:layout_gravity="center_vertical" android:layout_marginRight="10dip"/>
+       
+    </LinearLayout>
+       <ImageView 
+            android:id="@+id/report_main_image_pic"
+            android:layout_width="72dip"
+            android:layout_height="42.7dip"
+            android:layout_below="@id/title_layout"
+            android:layout_marginTop="8dip" android:layout_marginRight="8dip" android:layout_alignParentRight="true"/>
+       
+
+
+       
+   
+    <RelativeLayout 
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+            
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="56dip"
+             android:orientation="vertical"
+             android:background="@drawable/navicloud_and_710a" 
+             android:layout_centerHorizontal="true">
+         <RelativeLayout 
+             android:id="@+id/report_main_release"
+             android:layout_width="wrap_content"
+             android:background="@xml/button_common_release01"
+             android:layout_height="wrap_content">
+             <TextView 
+                android:layout_width="wrap_content"
+            android:text="@string/STR_MM_08_01_01_02"
+            android:textColor="#FFF8F8F8"
+             android:textSize="13.3dip"
+             android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/> 
+         </RelativeLayout>
+        
+            </LinearLayout>
+    </RelativeLayout>
+     
+  	</RelativeLayout>
+
+
+</LinearLayout>

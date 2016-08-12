@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="STR_1200000000">全国基础数据包</string>
+<string name="STR_1500000000">电子警察数据包</string>
+<string name="STR_1130110000">北京市</string>
+<string name="STR_1130310000">上海市</string>
+<string name="STR_1130120000">天津市</string>
+<string name="STR_1130500000">重庆市</string>
+<string name="STR_1130710000">台湾省</string>
+<string name="STR_1130810000">香港特别行政区</string>
+<string name="STR_1130820000">澳门特别行政区</string>
+<string name="STR_1130340000">安徽省</string>
+<string name="STR_1130350000">福建省</string>
+<string name="STR_1130620000">甘肃省</string>
+<string name="STR_1130440000">广东省</string>
+<string name="STR_1130450000">广西壮族自治区</string>
+<string name="STR_1130520000">贵州省</string>
+<string name="STR_1130460000">海南省</string>
+<string name="STR_1130130000">河北省</string>
+<string name="STR_1130410000">河南省</string>
+<string name="STR_1130230000">黑龙江省</string>
+<string name="STR_1130420000">湖北省</string>
+<string name="STR_1130430000">湖南省</string>
+<string name="STR_1130220000">吉林省</string>
+<string name="STR_1130320000">江苏省</string>
+<string name="STR_1130360000">江西省</string>
+<string name="STR_1130210000">辽宁省</string>
+<string name="STR_1130150000">内蒙古自治区</string>
+<string name="STR_1130640000">宁夏回族自治区</string>
+<string name="STR_1130630000">青海省</string>
+<string name="STR_1130370000">山东省</string>
+<string name="STR_1130140000">山西省</string>
+<string name="STR_1130610000">陕西省</string>
+<string name="STR_1130510000">四川省</string>
+<string name="STR_1130540000">西藏自治区</string>
+<string name="STR_1130650000">新疆维吾尔自治区</string>
+<string name="STR_1130530000">云南省</string>
+<string name="STR_1130330000">浙江省</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <CheckBoxPreference android:key="HUDPetrol" android:title="@string/STR_MM_06_02_02_42"/>
+    <CheckBoxPreference android:key="HUDCarPark" android:title="@string/STR_MM_06_02_02_43"/>
+    <CheckBoxPreference android:key="HUDHotel" android:title="@string/STR_MM_06_02_02_44"/>
+    <CheckBoxPreference android:key="HUDBank" android:title="@string/STR_MM_06_02_02_45"/>
+    <CheckBoxPreference android:key="HUDStation" android:title="@string/STR_MM_06_02_02_46"/>
+    <CheckBoxPreference android:key="HUDPostOffice" android:title="@string/STR_MM_06_02_02_47"/>
+    <CheckBoxPreference android:key="HUDRestaurant" android:title="@string/STR_MM_06_02_02_48"/>
+    <CheckBoxPreference android:key="HUDBurgers" android:title="@string/STR_MM_06_02_02_49"/>
+    <CheckBoxPreference android:key="HUDCoffee" android:title="@string/STR_MM_06_02_02_50"/>
+    <CheckBoxPreference android:key="HUDHospital" android:title="@string/STR_MM_06_02_02_51"/>
+    <CheckBoxPreference android:key="HUDPharmacy" android:title="@string/STR_MM_06_02_02_52"/>
+    <CheckBoxPreference android:key="HUDShopping" android:title="@string/STR_MM_06_02_02_53"/>
+    <CheckBoxPreference android:key="HUDClothing" android:title="@string/STR_MM_06_02_02_54"/>
+    <CheckBoxPreference android:key="HUDConsumer" android:title="@string/STR_MM_06_02_02_55"/>
+    <CheckBoxPreference android:key="HUDHomeSpcialty" android:title="@string/STR_MM_06_02_02_56"/>
+    <CheckBoxPreference android:key="HUDEntertainment" android:title="@string/STR_MM_06_02_02_57"/>
+    <CheckBoxPreference android:key="HUDFamilyRestaurant" android:title="@string/STR_MM_06_02_02_58"/>
+
+</PreferenceScreen>

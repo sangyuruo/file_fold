@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="60dip">
+	<TextView android:textSize="13dip"
+		android:id="@+id/ListItemMapDataDownLoading_placetext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="32dip" android:layout_marginTop="15dip"
+		android:textColor="@color/black"></TextView>
+	<TextView android:textSize="8dip" android:text="20mb"
+		android:id="@+id/ListItemMapDataDownLoading_sizetext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/ListItemMapDataDownLoading_placetext"
+		android:layout_marginLeft="32dip" android:textColor="@color/black"></TextView>
+	<ProgressBar android:layout_width="133dip"
+		android:layout_height="wrap_content" android:id="@+id/ListItemMapDataDownLoading_downloadbar"
+		android:layout_toRightOf="@+id/ListItemMapDataDownLoading_sizetext"
+		android:layout_alignTop="@+id/ListItemMapDataDownLoading_sizetext"
+		android:layout_alignBottom="@+id/ListItemMapDataDownLoading_sizetext"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_alignLeft="@+id/ListItemMapDataDownLoading_speedtext"></ProgressBar>
+	<TextView android:textSize="8dip" android:text="280KB/S"
+		android:id="@+id/ListItemMapDataDownLoading_speedtext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/ListItemMapDataDownLoading_placetext"
+		android:layout_marginLeft="16dip" android:layout_marginTop="15dip"
+		android:textColor="@color/black"></TextView>
+	<TextView android:textSize="8dip" android:text="62.3%"
+		android:id="@+id/ListItemMapDataDownLoading_degreetext"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="68dip" android:layout_marginTop="15dip"
+		android:layout_alignRight="@+id/ListItemMapDataDownLoading_downloadbar"
+		android:textColor="@color/black"></TextView>
+	<Button android:textSize="11dip" android:paddingTop="3dip"
+		android:id="@+id/ListItemMapDataDownLoading_pausebtn"
+		android:layout_width="wrap_content" android:layout_height="28dip"
+		android:layout_alignParentRight="true" android:text="pause"
+		android:layout_marginTop="6dip"></Button>
+	<Button android:textSize="11dip" android:paddingTop="3dip"
+		android:id="@+id/ListItemMapDataDownLoading_cancelbtn"
+		android:layout_width="wrap_content" android:layout_height="28dip"
+		android:layout_alignParentRight="true" android:text="cancel"
+		android:layout_below="@+id/ListItemMapDataDownLoading_pausebtn"></Button>
+</RelativeLayout>

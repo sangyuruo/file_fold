@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+<RelativeLayout
+	 android:layout_width="match_parent"   
+	 android:layout_height="26dip" 
+   android:background="@drawable/navicloud_and_661a">
+>
+	<TextView 
+	 android:layout_centerVertical="true"
+	 android:id="@+id/text_tip" 
+	 android:layout_width="match_parent" 
+	 android:layout_height="wrap_content"  
+	 android:text="@string/STR_MM_10_04_02_18"
+	 android:singleLine="true"
+	 style="@style/Style.Text.Text.SubTitle" android:layout_marginLeft="10dip"
+	 />
+</RelativeLayout>
+		
+   <ListView
+        android:id="@+id/list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+    </ListView>
+
+
+    
+</LinearLayout>

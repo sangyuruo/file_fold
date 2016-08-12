@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<!--  	<RelativeLayout
+        android:id="@+id/map_layer_search_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" android:background="@xml/adt_map_layer_search" android:layout_marginLeft="7dip" android:layout_marginRight="7dip" android:layout_marginTop="7dip">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/STR_MM_01_01_01_05" android:layout_marginLeft="8dip" android:textColor="#ff000000"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navicloud_and_034a" android:layout_centerVertical="true" android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    -->
+    <include layout="@layout/search_bar" android:id="@+id/src_map_navigation_searchbar"/>
+    <LinearLayout
+        android:id="@+id/home_company_layout"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/src_map_navigation_searchbar"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="top"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/home"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical" 
+            android:visibility="gone"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:background="@drawable/navicloud_and_772a" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navicloud_and_553a" />
+
+            <TextView
+                android:id="@+id/home_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/company"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="right|center_vertical" 
+            android:visibility="gone"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:background="@drawable/navicloud_and_772a">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navicloud_and_554a" />
+
+            <TextView
+                android:id="@+id/company_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"  />
+        </LinearLayout>
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:id="@+id/parking_layout"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="110dip"
+        android:gravity="top"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/parking1"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical" 
+            android:visibility="gone"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:background="@drawable/navicloud_and_772a" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navicloud_and_451a" />
+
+            <TextView
+                android:id="@+id/parking1_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/parking2"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="right|center_vertical" 
+            android:visibility="gone"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:background="@drawable/navicloud_and_772a">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navicloud_and_451a" />
+
+            <TextView
+                android:id="@+id/parking2_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"  />
+        </LinearLayout>
+    </LinearLayout>
+  <!--    <com.billionav.navi.component.mapcomponent.Compass
+        android:id="@+id/navigation_button_compass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginTop="98dp">
+    </com.billionav.navi.component.mapcomponent.Compass>-->
+
+    <View
+        android:id="@+id/reference_view"
+        android:layout_width="wrap_content"
+        android:layout_height="54dip" android:layout_alignParentBottom="true"/>
+
+<!--      <LinearLayout
+        android:id="@+id/demoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:background="@drawable/navicloud_and_738a" android:layout_above="@id/reference_view" android:layout_alignParentRight="true" android:layout_marginRight="6dip" android:layout_marginBottom="6dip">
+    </LinearLayout>
+-->
+	<RelativeLayout android:id="@+id/demoLayout"
+		android:layout_height="match_parent" android:layout_width="wrap_content">
+		<RelativeLayout android:id="@+id/stop_demo_icon_layout_shell"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+			<ImageView android:id="@+id/demo_stop"
+				android:layout_marginTop="53dip" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@xml/stop_demo_selector" />
+		</RelativeLayout>
+		<ImageView android:layout_alignParentBottom="true"
+			android:layout_marginBottom="56dip" android:id="@+id/demo_speedometer"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</RelativeLayout>
+    <com.billionav.navi.component.guidebar.GuideInfoBar
+        android:id="@+id/guideInfoBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+     </com.billionav.navi.component.guidebar.GuideInfoBar>
+<!--        <ImageView
+            android:id="@+id/demo_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navicloud_and_395a" />
+
+ 	<Button
+        android:id="@+id/startSync"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="58dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:text="Link" />
+ 	--> 
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="rootPreference" >
+
+    <!--
+    <PreferenceCategory android:title="@string/STR_MM_10_01_01_11" android:key="energysaving">
+		<CheckBoxPreference android:title="@string/STR_MM_10_01_01_11" android:key="opendriving"/>
+		<PreferenceScreen android:title="@string/STR_MM_10_01_01_12" android:key="drivingreport" />
+		<PreferenceScreen android:title="@string/STR_MM_10_01_01_13" android:key="drivingsetting"/>
+		
+	</PreferenceCategory>
+    -->
+    <PreferenceCategory
+        android:key="analysis"
+        android:title="@string/STR_MM_10_01_01_16" >
+        <PreferenceScreen
+            android:key="drivingaction"
+            android:title="@string/STR_MM_10_01_01_05" />
+        <PreferenceScreen
+            android:key="drivingactionlist"
+            android:title="@string/STR_MM_10_01_01_06" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="other"
+        android:title="@string/STR_MM_10_01_01_17" >
+        <PreferenceScreen
+            android:key="drivingrecord"
+            android:title="@string/STR_MM_10_01_01_07" />
+            <!--  
+        <PreferenceScreen
+            android:key="downloadroute"
+            android:title="@string/STR_MM_10_01_01_15" />
+            -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

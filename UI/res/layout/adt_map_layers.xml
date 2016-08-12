@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<!--      <RelativeLayout
+        android:id="@+id/map_layer_search_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" android:background="@xml/adt_map_layer_search" android:layout_marginLeft="7dip" android:layout_marginRight="7dip" android:layout_marginTop="7dip">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/STR_MM_01_01_01_05" android:layout_marginLeft="8dip" android:textColor="#ff000000"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navicloud_and_034a" android:layout_centerVertical="true" android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+-->
+	<include layout="@layout/search_bar"
+			android:id="@+id/adt_map_search_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/map_layer_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/my_loction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_map_my_location"/>
+
+        <ImageView
+            android:id="@+id/calc_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_map_calc_route" android:layout_below="@id/my_loction" android:layout_marginTop="3dip"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

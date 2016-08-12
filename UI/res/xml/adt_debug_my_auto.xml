@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:entries="@array/myautomotive_preference" android:entryValues="@array/myautomotivevalues_preference" android:title="Tollway charge division" android:key="my_automotive" android:summary="Ordinary car" android:dialogTitle="Tollway charge division" android:negativeButtonText="@android:string/cancel"/>
+    <PreferenceCategory android:title="Parking limit(vehicle model)" android:key="vehicle_model_category">
+        <CheckBoxPreference android:key="three_number" android:title="3 Number"/>
+        <CheckBoxPreference android:key="RV_checkbox" android:title="RV"/>
+        <CheckBoxPreference android:key="minivan1_box" android:title="Minivan-1BOX"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="vehicel_size" android:title="Parking limit(vehicle size)">
+        <EditTextPreference android:key="length" android:title="Length" android:dialogTitle="Length" android:dialogMessage="unit: cm"/>
+        <EditTextPreference android:key="width" android:title="Width" android:dialogTitle="Width" android:dialogMessage="unit: cm"/>
+        <EditTextPreference android:key="height" android:title="Height" android:dialogTitle="Height" android:dialogMessage="unit: cm"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

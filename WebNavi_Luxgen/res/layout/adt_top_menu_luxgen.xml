@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    >
+<GridView 
+    android:layout_width="296dip"
+    android:layout_height="520dip"
+    android:id="@+id/gridview"
+    android:numColumns="2"
+    android:layout_centerHorizontal="true"
+    android:listSelector="@android:color/transparent"
+    android:background="@drawable/topmenu_540x922_cn_fr"
+    android:fastScrollEnabled="false"
+    android:paddingBottom="25px"
+    ></GridView>    
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:key="file_name_setting" android:title="ASL" android:summary="Filename:No Setting"/>
+    <CheckBoxPreference android:key="ASLLogOutput" android:title="ASL Log Output"/>
+    <CheckBoxPreference android:key="ASLLogRestore" android:title="ASL Log Restore"/>
+    <CheckBoxPreference android:key="SNSLogOutputSetting" android:title="SNS Log Output Setting"/>
+    <CheckBoxPreference android:key="SNSLogRestoreSetting" android:title="SNS Log Restore Setting"/>
+    <CheckBoxPreference android:title="ECO Log Output Setting" android:key="ECOLogOutputSetting"/>
+    <CheckBoxPreference android:key="ECOLogRestoreSetting" android:title="ECO Log Restore Setting"/>
+    <ListPreference android:key="SNSStudyState" android:title="SNS Study State Setting" android:dialogTitle="SNS Study State Setting" android:entries="@array/sns_list_preference" android:entryValues="@array/snsval_list_preference"/>
+    <Preference android:key="SetCarData" android:title="Set Car Data"/>
+    <Preference android:key="EcoMileageParaInit" android:title="Eco Mileage Para Init"/>
+    <ListPreference android:key="BTProfileSetting" android:title="BT Profile Setting"/>
+    <Preference android:key="BTStatusRequest" android:title="BT Status Request"/>
+    <ListPreference android:key="SystemLogSetting" android:title="System Log Setting"/>
+    <Preference android:title="System Log Request" android:key="SystemLogRequest"/>
+    
+
+</PreferenceScreen>

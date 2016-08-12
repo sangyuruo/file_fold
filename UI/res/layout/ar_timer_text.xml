@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+  android:layout_width="113dip"
+  android:layout_height="31dip"
+  android:background="@drawable/navicloud_and_702a"
+  >
+  <TextView  
+    	android:layout_marginLeft="8dip"
+      	android:layout_width="wrap_content"
+  		android:layout_height="match_parent"
+  		android:gravity="center_vertical"
+  		android:text="REC"
+  		android:textSize="16dip"
+  		android:textColor="@color/red"
+  		android:layout_marginRight="1dip"
+    />
+  <TextView
+  	android:id="@+id/ar_timer_text"
+  	android:layout_width="wrap_content"
+  	android:layout_height="match_parent"
+  	android:gravity="center_vertical"
+  	android:textColor="@color/white"
+  	android:text="00:00:00"
+  	android:textSize="16dip"
+  android:layout_alignParentRight="true" android:layout_marginRight="8dip"/>
+    
+</RelativeLayout>

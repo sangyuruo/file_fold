@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="240dp">
+    
+    <com.billionav.navi.component.basiccomponent.HistogramItem android:id="@+id/histogram_item1"   android:layout_width="wrap_content"
+  android:layout_height="match_parent"  android:layout_weight="1" android:layout_marginLeft="20dp" />
+      <com.billionav.navi.component.basiccomponent.HistogramItem android:id="@+id/histogram_item2"   android:layout_width="wrap_content"
+  android:layout_height="match_parent"  android:layout_weight="1"  />
+      <com.billionav.navi.component.basiccomponent.HistogramItem android:id="@+id/histogram_item3"   android:layout_width="wrap_content"
+  android:layout_height="match_parent"  android:layout_weight="1"  />
+      <com.billionav.navi.component.basiccomponent.HistogramItem android:id="@+id/histogram_item4"   android:layout_width="wrap_content"
+  android:layout_height="match_parent"  android:layout_weight="1"  />
+      <com.billionav.navi.component.basiccomponent.HistogramItem android:id="@+id/histogram_item5"   android:layout_width="wrap_content"
+  android:layout_height="match_parent"  android:layout_weight="1" android:layout_marginRight="20dp"/>
+
+</LinearLayout>

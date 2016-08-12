@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<resources>
+    <style name="Widget" parent = "android:style/Widget">
+    </style>
+        
+    <style name="Widget.CompoundButton" parent = "android:style/Widget.CompoundButton">
+    </style>
+    
+    <style name="Widget.CompoundButton.CheckBox" parent="android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_check</item>
+    </style>
+     <style name="Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio</item>
+    </style>
+    
+    <style name="Widget.ListView" parent="android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <item name="android:background">@drawable/navicloud_and_749a</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:divider">#00000000</item>
+    </style>
+    
+    <style name="Widget.EditText" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/navicloud_and_513a</item>
+        <item name="android:paddingLeft">2dip</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:textColor">#FF0890CA</item>
+    </style>
+    
+        <style name="Widget.GridView" parent="android:style/Widget.GridView">
+        <item name="android:listSelector">@drawable/grid_selector_background</item>
+    </style>
+    <style name="Widget.Button" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">21dip</item>
+    </style>
+    <style name="Widget.ProgressBar" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_circle</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">34dip</item>
+        <item name="android:maxWidth">34dip</item>
+        <item name="android:minHeight">34dip</item>
+        <item name="android:maxHeight">34dip</item>
+	</style>
+    
+    
+    <style name="Preference">
+        <item name="android:layout">@layout/preference</item>
+    </style>
+    
+    <style name="Preference.Category">
+        <item name="android:layout">@layout/preference_category</item>
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+    
+    <style name="Preference.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_checkbox</item>
+    </style>
+    
+    <style name="Preference.PreferenceScreen">
+    </style>
+    
+    <style name="Preference.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+        <!--  
+        <item name="android:widgetLayout">@layout/preference_dialog</item>
+        -->
+    </style>    
+
+
+	<style name="levelRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:progressDrawable">@drawable/level_ratingbar_full</item>
+		<item name="android:minHeight">16dip</item>
+		<item name="android:maxHeight">16dip</item>
+		<item name="android:isIndicator">true</item>
+	</style>
+	<style name="levelBigRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:progressDrawable">@drawable/level_big_ratingbar_full</item>
+		<item name="android:minHeight">44dip</item>
+		<item name="android:maxHeight">44dip</item>
+		<item name="android:isIndicator">true</item>
+	</style>
+
+	<!-- for 22px back -->
+	<style name="text_black">
+		<item name="android:textColor">@color/navicloud_text_001</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+
+	<!-- for 22px white -->
+	<style name="text_white">
+		<item name="android:textColor">@color/navicloud_text_002</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+
+	<!-- for 22px grey -->
+	<style name="text_grey">
+		<item name="android:textColor">@color/navicloud_text_004</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+
+	<!-- for 18px grey, list sub title -->
+	<style name="text_grey_sub">
+		<item name="android:textColor">@color/navicloud_text_004</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+
+	<style name="layout_padding">
+		<item name="android:padding">6dip</item>
+	</style>
+	<style name="Style"></style>
+	<style name="Style.Text"></style>
+	<style name="Style.Text.Text"></style>
+	<style name="Style.Text.Text.Title">
+		<item name="android:textColor">@color/navicloud_text_002</item>
+		<item name="android:textSize">@dimen/font_size_06</item>
+	</style>
+	<style name="Style.Text.Text.TitleItem">
+		<item name="android:textColor">@color/navicloud_text_002</item>
+		<item name="android:textSize">@dimen/text_size_01</item>
+	</style>
+	<style name="Style.Text.Text.SubTitle">
+		<item name="android:textColor">#FF336699</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+	<style name="Style.Text.Text.ListGroupTitle">
+		<item name="android:textColor">@color/navicloud_text_004</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+	<style name="Style.Text.Text.ListItemText">
+		<item name="android:textColor">@color/list_item_text_color</item>
+		<item name="android:textSize">19dip</item>
+	</style>
+	<style name="Style.Text.Text.ListItemSubText">
+		<item name="android:textColor">@color/list_item_sub_text_color</item>
+		<item name="android:textSize">14dip</item>
+	</style>
+	<style name="Style.Text.Text.IconTextWhite">
+		<item name="android:textColor">@color/navicloud_text_002</item>
+		<item name="android:textSize">@dimen/text_size_02</item>
+	</style>
+	<style name="Style.Text.Text.PopUpText">
+		<item name="android:textColor">@color/navicloud_text_002</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+	<style name="Style.Text.Text.TabText">
+		<item name="android:textColor">@color/tab_item_text_color</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="Style.Text.Text.IconTextBlack">
+		<item name="android:textColor">@color/list_item_text_color</item>
+		<item name="android:textSize">13dip</item>
+	</style>
+	<style name="Style.Text.Text.IconTextBlue">
+		<item name="android:textColor">@color/dark_blue</item>
+		<item name="android:textSize">13dip</item>
+	</style>
+	<style name="Style.Text.Text.DialogTitle">
+		<item name="android:textColor">@color/navicloud_text_002</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+	<style name="Style.Text.Text.DialogContent">
+		<item name="android:textColor">@color/navicloud_text_001</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+	<style name="Style.Text.EditText">
+	</style>
+	<style name="Style.Text.EditText.EditText">
+		<item name="android:textColor">@color/navicloud_text_001</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+		<item name="android:padding">8dip</item>
+	</style>
+	<style name="Style.Text.EditText.TitleEditText">
+		<item name="android:textColor">@color/navicloud_text_001</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+	</style>
+	<style name="Style.Text.Button">
+	</style>
+	<style name="Style.Text.Button.Button">
+		<item name="android:textColor">@color/navicloud_text_001</item>
+		<item name="android:textSize">@dimen/text_size_05</item>
+		<item name="android:gravity">center</item>
+		<item name="android:background">@xml/button_common_selected_01</item>		
+	</style>
+	<style name="Style.Text.Text.DownloadInfoText">
+		<item name="android:textSize">15dip</item>
+		<item name="android:textColor">@color/navicloud_text_001</item>
+	</style>
+	<style name="Style.Progressbar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_vertical</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minWidth">20dip</item>
+        <item name="android:maxWidth">20dip</item>
+        <item name="android:minHeight">100dip</item>
+        <item name="android:maxHeight">100dip</item>
+	</style> 
+	<style name="Style.PopUpMenu"></style>
+	<style name="Style.PopUpMenu.PopUpMenuUP">
+    	<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item> 
+    	<item name="@android:windowExitAnimation">@anim/shrink_from_top</item> 
+    </style>
+     <style name="dialog" parent="@android:style/Theme.Dialog">
+         <item name="android:windowFrame">@null</item>
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:windowBackground">@drawable/activity_dialog_bg</item>
+     </style>
+</resources>

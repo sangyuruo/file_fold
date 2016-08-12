@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.billionav.navi.component.tab.RouteEditBroadDrive
+        android:id="@+id/rm_tabbroad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+    </com.billionav.navi.component.tab.RouteEditBroadDrive>
+ 	<RelativeLayout 
+		android:layout_below="@id/rm_tabbroad"
+	    android:layout_width="match_parent"
+	    android:id="@+id/adt_route_main_background"
+	    android:layout_height="match_parent" android:background="#77000000">
+	</RelativeLayout>
+	
+</RelativeLayout>

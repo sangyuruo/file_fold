@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+ 		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navicloud_and_518a">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" android:background="@xml/adt_map_layer_search" android:layout_marginLeft="10dip" android:layout_marginRight="4dip" android:layout_marginTop="7dip" android:layout_marginBottom="7dip">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/STR_MM_01_01_01_05" android:layout_marginLeft="8dip" android:textColor="#FF0890CA"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navicloud_and_034a" android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:background="@xml/adt_map_layer_search_magnifier"/>
+
+    </RelativeLayout>
+</RelativeLayout>

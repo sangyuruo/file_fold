@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="60dip">
+<TextView android:text="test" android:gravity="left|center"
+	android:layout_width="fill_parent" android:layout_toRightOf="@+id/ResultMark" android:layout_toLeftOf="@+id/Distance" android:layout_centerInParent="true" android:id="@+id/resultName" android:layout_height="fill_parent" android:textSize="20dip" android:maxLines="2"></TextView>
+<TextView android:id="@+id/Distance" android:layout_marginRight="2px" android:layout_width="80px" android:text="distance" android:layout_alignParentRight="true" android:gravity="left|center" android:layout_height="fill_parent"></TextView><ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ResultMark" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_marginLeft="10px"></ImageView>
+
+</RelativeLayout>

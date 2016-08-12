@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+  	android:layout_width="match_parent"
+  	 android:layout_height="match_parent">
+ 
+  <LinearLayout
+        android:id="@+id/layer_menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="54dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/navicloud_and_701a" 
+        android:clickable="true">
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1" 
+            android:background="@xml/adt_map_layer_menu_middle_seletor">
+			
+	        <TextView
+	            android:id="@+id/layer_menu_bar_textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/STR_MM_01_01_01_01" android:layout_alignParentBottom="true" android:layout_marginBottom="4dip" android:layout_centerHorizontal="true" style="@style/Style.Text.Text.IconTextBlack"/>
+
+	        <ImageView
+	            android:id="@+id/layer_menu_bar_report"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="1dip"
+	            android:background="@xml/adt_map_layer_menu_middle_seletor"
+	            android:src="@drawable/navicloud_and_405a" android:layout_centerHorizontal="true"/>
+		
+        </RelativeLayout>
+    
+	    <RelativeLayout 
+	        android:layout_width="match_parent" 
+	        android:layout_height="match_parent" 
+	        android:layout_weight="1"
+	        android:background="@xml/adt_map_layer_menu_middle_seletor">
+	        <TextView
+	            android:id="@+id/layer_menu_bar_textView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/STR_MM_01_01_01_02" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" android:layout_marginBottom="4dip" style="@style/Style.Text.Text.IconTextBlack"/>
+
+	        <ImageView
+	            android:id="@+id/layer_menu_bar_layers"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="1dip"
+	            android:background="@xml/adt_map_layer_menu_middle_seletor"
+	            android:src="@drawable/navicloud_and_406a" android:layout_centerHorizontal="true"/>
+	        </RelativeLayout>
+
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1" 
+            android:background="@xml/adt_map_layer_menu_middle_seletor">
+	        <TextView
+	            android:id="@+id/layer_menu_bar_textView4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/STR_MM_01_01_01_03" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" android:layout_marginBottom="4dip" style="@style/Style.Text.Text.IconTextBlack"/>
+
+	        <ImageView
+	            android:id="@+id/layer_menu_bar_nearby_search"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="1dip"
+	            android:background="@xml/adt_map_layer_menu_middle_seletor"
+	            android:src="@drawable/navicloud_and_407a" android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1" 
+            android:background="@xml/adt_map_layer_menu_middle_seletor">
+		        <TextView
+		            android:id="@+id/layer_menu_bar_textView5"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/STR_MM_01_01_01_04" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" android:layout_marginBottom="4dip" style="@style/Style.Text.Text.IconTextBlack"/>
+	
+		        <ImageView
+		            android:id="@+id/layer_menu_bar_more"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="1dip"
+		            android:background="@xml/adt_map_layer_menu_right_seletor"
+		            android:src="@drawable/navicloud_and_408a" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+  </RelativeLayout>
+  
+ 

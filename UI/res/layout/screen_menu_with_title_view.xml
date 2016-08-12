@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/MenuViewFrameLayout" android:layout_gravity="bottom|left" android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<ImageView android:id="@+id/MenuWithTitleViewTransparent" android:layout_height="fill_parent" android:layout_width="fill_parent" android:clickable="true" android:longClickable="true">
+	</ImageView>
+	<ImageView android:background="@color/grey" android:id="@+id/MenuWithTitleViewBackground1" android:layout_width="fill_parent" android:layout_gravity="bottom|left" android:layout_height="250dip">
+	</ImageView>
+	<TextView android:text="@+id/TextView01" android:textSize="16dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/MenuWithTitleTextView" android:layout_gravity="bottom|left" android:layout_marginLeft="20dip" android:textColor="@color/black" android:layout_marginBottom="220dip">
+	</TextView>
+	<Button android:text="@+id/Button01" android:layout_height="wrap_content" android:id="@+id/MenuWithTitleViewItemButton1" android:layout_gravity="bottom|left" android:layout_width="fill_parent" android:layout_marginBottom="170dip">
+	</Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/MenuWithTitleViewItemButton2" android:text="@+id/Button02" android:layout_gravity="bottom|left" android:layout_width="fill_parent" android:layout_marginBottom="130dip">
+	</Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/MenuWithTitleViewItemButton5" android:text="@+id/Button05" android:layout_gravity="bottom|left" android:layout_marginBottom="90dip" android:layout_width="fill_parent"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/MenuWithTitleViewItemButton3" android:text="@+id/Button03" android:layout_gravity="bottom|left" android:layout_width="fill_parent" android:layout_marginBottom="50dip">
+	</Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/MenuWithTitleViewItemButton4" android:text="@+id/Button04" android:layout_width="fill_parent" android:layout_gravity="bottom|left">
+	</Button>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="horizontal"
+	android:layout_width="fill_parent">
+	<com.billionav.navi.naviscreen.favorite.ADT_Favorite_TabHostNavi  android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/adt_favorite_tabhost">
+	</com.billionav.navi.naviscreen.favorite.ADT_Favorite_TabHostNavi >
+</LinearLayout>

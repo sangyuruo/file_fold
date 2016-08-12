@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="white">#FFFFFFFF</color>
+<color name="blue">#FF0000FF</color>
+<color name="black">#FF000000</color>
+<color name="grey">#CCCCCC</color>
+<color name="list_item_disable_text">#ff787878</color>
+<color name="guide_info_text_green">#ff38ff54</color>
+<color name="guide_street_color">#ffe8e8e8</color>
+<color name="red">#ff0000</color>
+<color name="azure">#92d93f</color>
+<color name="light_black">#BABABA</color>
+<color name="mid_black">#6e6e6e</color>
+<color name="light_grey">#ff828282</color>
+<color name="score_text">#ff080808</color>
+<color name="translucent">#00000000</color>
+<!-- Text Color Black -->
+<color name="navicloud_text_001">#FF080808</color>
+<!-- Text Color White -->
+<color name="navicloud_text_002">#FFF8F8F8</color>
+<!-- Text Color Blue -->
+<color name="navicloud_text_003">#FF18A0F0</color>
+<!-- Text Color Grey -->
+<color name="navicloud_text_004">#FF6E6E6E</color>
+<!-- Text Color Grey2 -->
+<color name="navicloud_text_005">#FF72A0B0</color>
+<!-- Text Color Orange -->
+<color name="navicloud_text_006">#FFF87008</color>
+
+<color name="list_normal">#FFFFFFFF</color>
+<color name="list_press">#FF66CCF3</color>
+<drawable name="ar_list_unclick">#D87EADC2</drawable>
+<drawable name="ar_list_clicked">#D84686A5</drawable>
+
+
+<color name="light_blue">#FF0872CA</color>
+<color name="dark_blue">#FF004D8C</color>
+<color name="blue_grey">#FF336699</color>
+<color name="Royal_Blue">#FF0768B8</color>
+</resources>

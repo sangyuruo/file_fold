@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+  	android:layout_width="match_parent"
+  	 android:layout_height="match_parent">
+  	<com.billionav.navi.component.mapcomponent.ARGLSurfaceView
+  	    android:id="@+id/surfaceview"
+  	    android:layout_height="match_parent"
+  		android:layout_width="match_parent"
+  	    />
+  	
+  	<com.billionav.navi.component.basiccomponent.ArTimerText
+  		 android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:id="@+id/txtview"
+  			android:layout_alignParentTop="true"
+  			android:layout_marginTop="5dip"
+  			android:layout_alignParentLeft="true"
+  			android:background="@drawable/navicloud_and_084a"
+  			android:layout_marginLeft="5dip">
+  	</com.billionav.navi.component.basiccomponent.ArTimerText>
+
+  	<TextView
+  		 android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:id="@+id/video_text"
+  			android:layout_alignParentRight="true"
+            android:text="@string/STR_MM_05_01_01_02"
+            android:textColor="@color/red"
+            android:textSize="22dip"
+  			android:layout_marginRight="10dip" android:layout_alignParentBottom="true" android:paddingBottom="15dip"/>
+
+  	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_marginRight="12dip" android:layout_marginTop="10dip">
+  		<ImageButton android:id="@+id/dr_vedio" 
+  			android:layout_width="wrap_content" 
+  			android:layout_height="wrap_content"
+  			android:src="@drawable/navicloud_and_036a" android:layout_alignParentRight="true" android:background="@xml/button_common_open_file"/> 
+  		<ImageButton android:id="@+id/dr_folder" 
+  			android:layout_height="wrap_content" 
+  			android:layout_toLeftOf="@id/dr_vedio"
+  			android:layout_width="wrap_content"
+  			android:src="@drawable/navicloud_and_037a" android:background="@xml/button_common_open_file" android:layout_marginRight="13.3dip"/>
+  		
+  	</RelativeLayout>
+  		
+  	
+  	
+  </RelativeLayout>
+  
+ 

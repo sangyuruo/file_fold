@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="26dip" android:id="@+id/area_acition"
+		android:background="@drawable/navicloud_and_722a" android:clickable="true">
+		<TextView android:id="@+id/title_text" android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_marginLeft="8dip" style="@style/Style.Text.Text.Title" android:singleLine="true" android:layout_width="wrap_content"></TextView>
+			<TextView android:id="@+id/title_text_right"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="right|center_vertical"
+				android:layout_gravity="center_vertical" android:layout_marginRight="8dip"
+				style="@style/Style.Text.Text.Title" android:singleLine="true"/>
+
+	</LinearLayout>
+	<RelativeLayout android:layout_height="wrap_content" android:id="@+id/context_layout" android:layout_width="match_parent"></RelativeLayout>
+	<RelativeLayout android:id="@+id/area_below"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:layout_weight="1">
+<!-- 		android:layout_below="@id/context_layout_out" -->
+<!--  		android:layout_above="@id/action_layout"-->
+
+	</RelativeLayout>
+	<LinearLayout android:layout_height="51dip"
+		android:layout_width="match_parent" android:id="@+id/action_layout"
+		android:orientation="horizontal" 
+		android:background="@drawable/navicloud_and_721a"
+		
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true" android:gravity="center">
+		<LinearLayout android:layout_height="match_parent" android:orientation="horizontal"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:id="@+id/action_item_layout" android:layout_width="match_parent">
+		</LinearLayout>
+		<ProgressBar android:id="@+id/actionbar_progressbar"
+			android:layout_width="51dip" android:layout_height="51dip"
+			android:layout_marginRight="8dip" android:layout_gravity="center_vertical"
+			android:visibility="gone" 
+            />
+<!--  		<ProgressBar android:id="@+id/actionbar_progressbar"
+			android:layout_width="51dip" android:layout_height="51dip"
+			android:layout_marginRight="8dip" android:layout_gravity="center_vertical"
+			android:visibility="gone" 
+			/>
+			-->
+	</LinearLayout>
+</LinearLayout>

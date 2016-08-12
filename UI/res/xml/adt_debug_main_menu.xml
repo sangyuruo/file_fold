@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="root_preference">
+    <PreferenceScreen android:title="Log Setting" android:key="LogSetting">
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Flush Cache To File" android:key="FlushCacheToFile">
+    </PreferenceScreen>
+     <CheckBoxPreference android:key="NETWORK_EXTERNIP" android:title="NetWork ExterIP"/>
+    <CheckBoxPreference android:key="BTSwitcher" android:title="BT Switch"/>
+    <CheckBoxPreference android:key="MatchingBox" android:title="Matching Log"/>
+    
+    <CheckBoxPreference android:key="GPSDisplay" android:title="GPSdisplay Log"/>
+    <CheckBoxPreference android:title="LogRunning Log" android:key="LogRunningBox"/>
+    <CheckBoxPreference android:key="CoreLocationBox" android:title="Core Location Log"/>
+    <CheckBoxPreference android:key="StartNMEABox" android:title="Start NMEA Log"/>
+    <CheckBoxPreference android:key="NMEALogBox" android:title="NMEALog Play"/>
+    <CheckBoxPreference android:key="SearchSetting" android:title="Search Seting"/>
+    <CheckBoxPreference android:key="CradleDebugInfo" android:title="Cradle Debug Info"/>
+    <PreferenceScreen android:key="CradleDebugSetting" android:title="Cradle Debug Setting"></PreferenceScreen>
+    <CheckBoxPreference android:key="SearchLog" android:title="Search Log"/>
+    <CheckBoxPreference android:key="CeatecSetting" android:title="CEATEC Setting"/>
+    <CheckBoxPreference android:key="ChinaDemo" android:title="China Demo"/>
+    <CheckBoxPreference android:key="ParcelLineDisplay" android:title="Parcel Line Display"/>
+    <CheckBoxPreference android:key="MapDragLine" android:title="Map Drag Line"/>
+    <CheckBoxPreference android:key="LocationWriteLogs" android:title="Location Write Logs"/>
+    <ListPreference android:key="CDNconnectionsetting" android:title="CDN connection setting" android:dialogTitle="CDN connection setting" android:entries="@array/cdnconnection_list_preference" android:entryValues="@array/cdnconnectionval_list_preference"/>
+    <PreferenceScreen android:key="LogRunSetting" android:title="LogRun Setting"></PreferenceScreen><PreferenceScreen android:key="DebugOff" android:title="Debug Off">
+        
+    </PreferenceScreen>
+    <PreferenceScreen android:key="MyAutomotive" android:title="My Automotive"></PreferenceScreen><PreferenceScreen android:key="SetDesignFilePath" android:title="Map Design File Selection">
+        
+    </PreferenceScreen>
+    <ListPreference android:key="skinPref" android:title="Skin" android:dialogTitle="Skin" android:entries="@array/skin_list_preference" android:entryValues="@array/skinvalues_list_preference"/>
+    <ListPreference android:key="MAPCOLOR" android:title="Map Color" android:dialogTitle="Map Color" android:entries="@array/mapcolor_list_preference" android:entryValues="@array/mapcolorvalues_list_preference"/>
+    <ListPreference android:key="DAYCOLOR" android:title="Day Color" android:dialogTitle="Day Color" android:entries="@array/colorselection_preference" android:entryValues="@array/colorselectionvalues_preference"/>
+    <ListPreference android:key="NIGHTCOLOR" android:title="Night Color" android:dialogTitle="Night Color" android:entries="@array/colorselection_preference" android:entryValues="@array/colorselectionvalues_preference"/>
+    <PreferenceScreen android:key="MapSkyView" android:title="3D View"></PreferenceScreen>
+    <PreferenceScreen android:key="SIMInfo" android:title="SIM Info"></PreferenceScreen>
+    <ListPreference android:key="CertificationSetting" android:title="Certification Setting" android:dialogTitle="Certification Setting" android:entries="@array/certification_list_preference" android:entryValues="@array/certificationval_list_preference"/>
+    <PreferenceScreen android:key="MapSize_Setting" android:title="Map Size Setting"></PreferenceScreen>
+    <CheckBoxPreference android:key="AplFirstRun" android:title="Apl First Run"/>
+    <CheckBoxPreference android:key="DeveloperModel" android:title="Developer Model"/>
+    <CheckBoxPreference android:key="SmartLoopUseDebugFile" android:title="SmartLoop Use Debug File"/>
+    <PreferenceScreen android:key="SmartLoopMapsSelection" android:title="Servers Selection"></PreferenceScreen>
+    <PreferenceScreen android:key="ServerSelection" android:title="Server Selection">
+        
+    </PreferenceScreen><CheckBoxPreference android:key="ForbidExitApl" android:title="Forbid Exit Apl"/>
+    <CheckBoxPreference android:key="UILog" android:title="UI Log"/>
+    <CheckBoxPreference android:key="SubDriveMode" android:title="Fellow Passenger Operation"/>
+    <CheckBoxPreference android:key="m_pChild_speedadjust" android:title="demo run speed adjust"/>
+    <Preference android:key="m_pChild_Perfermance" android:title="Perfermance Test"/>
+    <Preference android:key="m_pChild_Position" android:title="Vehicle"/>
+    <CheckBoxPreference android:key="m_pChild_NameCollisionTest" android:title="Name Collision Test"/>
+    <EditTextPreference android:key="setScrollTimePreference" android:title="Scroll Shortest Time" android:dialogTitle="Scroll Shortest Time"/>
+    <EditTextPreference android:key="setScrollDistancePreference" android:title="Inertia Scroll Shortest Distance"/>
+    <Preference android:key="mapURL" android:title="PSETURL"/>
+    <CheckBoxPreference android:key="highWayImageRecognitionSwitch" android:title="High way image recognition"/>
+    <CheckBoxPreference android:key="m_pChild_Ameba" android:title="Ameba (just valed in jp version)"/>
+    <PreferenceScreen android:key="SearchLocal" android:title="Search Local Test"></PreferenceScreen>
+    <CheckBoxPreference android:key="displayMapTileID" android:title="Display Tile ID" android:summary="for map"/>
+    <PreferenceScreen android:key="fileLog" android:title="Log record and replay"></PreferenceScreen>
+    
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceScreen android:key="cradle_connect_setting" android:title="cradle connect setting"/>
+    <CheckBoxPreference android:key="cradle_interna_sp_out" android:title="cradle interna sp out"/>
+    <com.billionav.navi.component.basiccomponent.ListPreference android:key="led_setting" android:title="LED Setting" android:summary=""
+	       android:dialogTitle="LED Setting"/>
+    <com.billionav.navi.component.basiccomponent.ListPreference android:key="asl_setting" android:title="ASL Setting" 
+        android:summary=""
+	       android:dialogTitle="ASL Setting"/>
+   <PreferenceScreen android:key="sensor_learning_initialize" android:title="Sensor Learning Initialize"/>  
+     <PreferenceScreen android:key="cradle_info" android:title="cradle info"/>
+  
+    
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/gib_streetname"
+        android:text="this is just a test for long sentence"
+        android:layout_width="match_parent"
+        android:layout_height="47dip"
+        android:focusable="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:lines="1"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="20dip" android:gravity="center_vertical"/>
+</HorizontalScrollView>
+
+

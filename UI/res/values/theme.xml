@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme" parent="android:Theme.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:checkboxStyle">@style/Widget.CompoundButton.CheckBox</item>
+        <item name="android:windowBackground">@drawable/navicloud_and_517a</item>   
+		<item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
+    	<item name="android:listChoiceIndicatorMultiple">@drawable/btn_check</item>    
+    	<item name="android:listViewStyle">@style/Widget.ListView</item>
+    	
+        <item name="android:buttonStyle">@style/Widget.Button</item>
+        <item name="android:editTextStyle">@style/Widget.EditText</item>
+        <item name="android:gridViewStyle">@style/Widget.GridView</item> 
+        <item name="android:progressBarStyle">@style/Widget.ProgressBar</item> 
+         	 
+        <!-- Preference styles -->
+        <item name="android:preferenceStyle">@style/Preference</item>
+    	<item name="android:preferenceCategoryStyle">@style/Preference.Category</item>
+    	<item name="android:checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference</item>
+		<item name="android:preferenceScreenStyle">@style/Preference.PreferenceScreen</item>
+		<item name="android:dialogPreferenceStyle">@style/Preference.DialogPreference</item>
+    </style>
+	
+	<style name="Theme.CustomDialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/navicloud_and_732a</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	
+	
+		<style parent="android:Theme.Translucent.NoTitleBar" name="Theme.Translucent"/>
+	
+	
+</resources>

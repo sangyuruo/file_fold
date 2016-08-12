@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<!-- <LinearLayout android:id="@+id/adt_photo_edit_linelayout_accept" android:layout_width="match_parent" 
+		android:layout_weight="14" android:layout_marginBottom="4dip" android:layout_marginTop="4dip" 
+		android:layout_marginLeft="4dip" android:layout_marginRight="4dip" android:layout_alignParentBottom="true" 
+		android:layout_height="wrap_content"> <Button android:id="@+id/adt_favourite_pic_submit" 
+		android:layout_width="120dip" android:layout_height="36dip" android:layout_alignParentBottom="true" 
+		android:layout_centerHorizontal="true" android:scaleType="center" android:text="@string/STR_MM_02_02_06_08" 
+		android:layout_weight="50" android:layout_marginLeft="4dip" android:layout_marginTop="4dip" 
+		android:layout_marginBottom="4dip" android:layout_marginRight="4dip" android:background="@xml/button_common_selected_01" 
+		/> <Button android:id="@+id/adt_favourite_pic_delete" android:layout_width="120dip" 
+		android:layout_height="36dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" 
+		android:text="@string/STR_MM_02_02_06_07" android:gravity="center" android:scaleType="center" 
+		android:layout_marginLeft="4dip" android:layout_marginTop="4dip" android:layout_weight="50" 
+		android:layout_marginBottom="4dip" android:layout_marginRight="4dip" android:background="@xml/button_common_selected_01" 
+		/> </LinearLayout> -->
+	<RelativeLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_marginTop="4dip"
+		android:layout_marginLeft="4dip" android:layout_marginRight="4dip"
+		android:layout_alignParentTop="true" android:layout_margin="5dip"
+		android:background="@drawable/navicloud_and_727a"
+		android:layout_height="match_parent">
+		<com.billionav.navi.naviscreen.photo_edit.CameraLayout
+			android:id="@+id/adt_favourite_cam_view_selectView"
+			android:clickable="true" android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip" android:layout_height="match_parent"
+			android:layout_width="match_parent" android:layout_centerInParent="true" />
+		<LinearLayout android:layout_width="match_parent"
+			android:id="@+id/adt_favourite_camera_file_layout"
+			android:layout_height="wrap_content" android:layout_marginBottom="4dip"
+			android:layout_marginTop="4dip" android:layout_marginLeft="4dip"
+			android:layout_marginRight="4dip" android:orientation="horizontal"
+			android:layout_alignParentTop="true" android:gravity="right">
+
+			<ImageButton android:id="@+id/adt_favourite_pic_brow"
+				android:layout_width="wrap_content" android:layout_height="36dip"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true" android:scaleType="center"
+				android:layout_marginLeft="4dip" android:layout_marginTop="4dip"
+				android:layout_marginBottom="4dip" android:layout_marginRight="4dip"
+				android:background="@xml/button_common_selected_05" android:src="@drawable/navicloud_and_037a" />
+			<ImageButton android:id="@+id/adt_favourite_pic_came"
+				android:layout_width="wrap_content" android:layout_height="36dip"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true" android:scaleType="center"
+				android:layout_marginLeft="4dip" android:layout_marginTop="4dip"
+				android:layout_marginBottom="4dip" android:layout_marginRight="4dip"
+				android:background="@xml/button_common_selected_05" android:src="@drawable/navicloud_and_036a" />
+		</LinearLayout>
+		<!-- <com.billionav.navi.naviscreen.photo_edit.PhotoScrollView android:id="@+id/adt_favourite_pic_scroll_view" 
+			android:layout_width="fill_parent" android:layout_height="wrap_content" android:clickable="false"> 
+			<RelativeLayout android:id="@+id/adt_favourite_cam_view_layout" android:layout_width="match_parent" 
+			android:layout_height="match_parent" android:layout_below="@id/adt_favourite_camera_file_layout"> -->
+
+	</RelativeLayout>
+	<!-- </com.billionav.navi.naviscreen.photo_edit.PhotoScrollView> -->
+</RelativeLayout>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.billionav.navi.component.listcomponent.MultiChoiceLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="66dip"
+  android:background="@drawable/list_selector_background">
+  <RelativeLayout
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+  android:layout_marginTop="15dip" android:layout_marginLeft="12dip">
+    <TextView android:text="TextView" 
+    android:id="@+id/textName" 
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    style="@style/Style.Text.Text.ListItemText"
+    ></TextView>
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:id="@+id/textSize" 
+     style="@style/Style.Text.Text.ListItemSubText"
+    android:layout_width="wrap_content" 
+    android:text="TextView"
+    android:layout_alignParentLeft="true" android:layout_below="@+id/textName"></TextView>
+  </RelativeLayout>
+</com.billionav.navi.component.listcomponent.MultiChoiceLayout>

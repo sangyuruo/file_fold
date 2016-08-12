@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!--  
+    <usb-accessory model="HMI" 
+        manufacturer="Ford" 
+        description = "Pioneer" 
+        version="1.0" 
+        url = "http://pioneer.jp" 
+        serial = "0000000012345678"/>
+        -->
+     <usb-accessory 
+        description="Pioneer" 
+        manufacturer="SDL" 
+        model="Core" 
+        serial="0000000012345678" 
+        url="http://pioneer.jp" 
+        version="1.0" />  
+       
+    <usb-accessory model="PIONEER" manufacturer="PIONEER" version="1.0"/>
+</resources>

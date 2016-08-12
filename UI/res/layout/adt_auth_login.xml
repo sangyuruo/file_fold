@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/layout_111"
+    android:orientation="vertical" android:background="@drawable/navicloud_and_517a">
+
+<RelativeLayout 
+     android:id="@+id/layout_222"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2" >
+     <ImageView   
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/navicloud_and_001a" 
+         android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+     </RelativeLayout>
+<LinearLayout 
+    android:id="@+id/layout_333"
+     android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_weight="2"
+    >
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content" android:layout_weight="2">
+ 
+
+      <RelativeLayout
+            android:id="@+id/adt_Auth_Login_Username_linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginTop="15dip">
+            <EditText
+                android:id="@+id/adt_Auth_Login_Username_edit_text"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:textSize="15dip"
+                android:background="@drawable/navicloud_and_516a"
+                android:hint="@string/STR_MM_09_01_01_12"
+                android:layout_height="wrap_content" android:paddingLeft="5dip" android:layout_marginRight="30dip" android:layout_marginLeft="30dip">
+            </EditText>    
+        </RelativeLayout>
+
+<RelativeLayout 
+    android:id="@+id/relayout_02"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginTop="5dip">
+     <LinearLayout
+            android:id="@+id/adt_Auth_Login_Password_linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginRight="35dip" android:layout_marginLeft="35dip">
+            <EditText
+                android:id="@+id/adt_Auth_Login_Password_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:password="true"
+                android:textSize="15dip"
+                android:hint="@string/STR_MM_09_01_01_04"
+                android:singleLine="true"
+                android:background="@drawable/navicloud_and_516a"
+                android:paddingLeft="5dip" android:imeOptions="actionGo">
+            </EditText>
+        </LinearLayout>    
+  <TextView 
+            android:id="@+id/adt_Auth_Login_Find_Password_text"
+            android:text="@string/STR_MM_09_01_01_35"
+            android:textSize="16dip"
+            android:textColor="#FF47ABD9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@id/adt_Auth_Login_Password_linearLayout1" android:layout_marginTop="2dip" android:layout_alignParentLeft="true" android:layout_marginLeft="35dip"/>
+        </RelativeLayout>
+        
+   </LinearLayout>
+   
+   <LinearLayout
+       android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="2" android:layout_marginTop="5dip">
+    <Button
+        android:id="@+id/adt_Auth_Login_Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/button_common_login"
+        android:textColor="@color/button_text"
+        android:text="@string/STR_MM_09_01_01_24" android:layout_marginLeft="40dip" android:layout_marginRight="40dip"/>
+   </LinearLayout>
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="2">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" >
+    <Button 
+        android:id="@+id/adt_Auth_Login_after_new"
+         android:layout_height="wrap_content"
+        android:background="@xml/button_common_reg"
+        android:textColor="#FFF8F8F8"
+        android:text="@string/STR_MM_09_01_01_08" android:layout_width="match_parent" android:layout_marginRight="35dip" android:layout_marginLeft="35dip"/>
+    </LinearLayout>
+        <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="1" >
+      <Button 
+        android:id="@+id/adt_Auth_Login_reg_new"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/button_common_reg"
+        android:text="@string/STR_MM_09_01_01_09"
+        android:textColor="#FFF8F8F8"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginRight="30dip" android:layout_marginLeft="30dip"/>
+      </LinearLayout>
+      </LinearLayout>
+</LinearLayout>
+</LinearLayout>

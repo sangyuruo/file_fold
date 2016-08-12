@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.billionav.navi.component.basiccomponent.RelativeLayoutNoPress
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_Item_Guide_Dist_RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:paddingLeft="5dip">
+ <com.billionav.navi.component.basiccomponent.CheckBoxCollect
+ 		android:id="@+id/list_Item_Guide_Dist_image01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY" 
+        android:src="@drawable/navicloud_and_568a"
+ 		android:layout_centerVertical="true"
+ 		/>
+
+    <LinearLayout
+        android:id="@+id/list_Item_Guide_Dist_Linearlayour01"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/list_Item_Guide_Dist_image01"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_centerVertical="true" android:paddingTop="5dip" android:paddingBottom="6dip" android:layout_toLeftOf="@+id/list_Item_Guide_Dist_image02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginRight="12dip">
+
+        <TextView
+            android:id="@+id/list_Item_Guide_Dist_text01"
+            android:layout_height="wrap_content"
+            style="@style/Style.Text.Text.ListItemText"
+            android:text="TextView01"
+            android:layout_width="fill_parent" android:singleLine="true"/>
+
+        <TextView
+           android:id="@+id/list_Item_Guide_Dist_text02"
+           style="@style/Style.Text.Text.ListItemSubText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:text="TextView02"/>
+           <TextView
+        android:id="@+id/list_Item_Guide_Dist_text03"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        style="@style/Style.Text.Text.ListItemSubText"
+        android:text="TextView03"
+         android:layout_width="fill_parent" android:singleLine="true"
+         />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_Item_Guide_Dist_image02"
+        android:layout_width="42dip"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/navicloud_and_569a" android:layout_marginRight="12dip" android:layout_centerVertical="true" android:layout_height="42dip"
+          android:background="@drawable/list_faverate_route_btn_selector"
+        android:scaleType="center"
+       />
+		
+</com.billionav.navi.component.basiccomponent.RelativeLayoutNoPress>

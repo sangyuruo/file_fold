@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-    <CheckBoxPreference android:key="record" android:title="Record" android:summaryOff="click to start record" android:summaryOn="click to stop record"/>
-    <CheckBoxPreference android:key="replay" android:title="Replay" android:summaryOff="click to start replay" android:summaryOn="click to stop replay"/>
-
-</PreferenceScreen>

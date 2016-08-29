@@ -1,5 +1,0 @@
-
-
-<RelativeLayout android:id="@+id/RelativeLayout01" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content"><RatingBar android:id="@+id/RatingBar01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0dip" android:layout_marginLeft="0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"></RatingBar>
-<RatingBar android:layout_height="wrap_content" android:id="@+id/RatingBar02" android:layout_width="wrap_content" android:layout_below="@+id/RatingBar01" android:layout_marginLeft="0dip" android:layout_marginTop="0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="?android:attr/ratingBarStyleIndicator"></RatingBar>
-</RelativeLayout>
